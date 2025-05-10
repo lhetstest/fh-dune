@@ -418,6 +418,12 @@ a {
     border-radius: 4px;
 }
 
+hr {
+    border: 1px solid #ddd;
+    margin: 2rem 0;
+    text-align: center;
+    color: #7f8c8d;
+}
 /* Enhanced Modal Styles */
 .auth-form h2 {
     font-size: 1.8rem;
@@ -739,4 +745,12 @@ a {
         order: -1;
         margin-bottom: 2rem;
     }
+    
+    hr {
+    border: 1px solid #ddd;
+    margin: 2rem 0;
+    width: 100%;
+    color: #7f8c8d;
+    }
 }
+

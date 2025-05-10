@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+	<link rel="manifest" href="/assets/site.webmanifest">
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/css/form-styles.css">
+	<style>
+		@import url(https://fonts.bunny.net/css?family=ibm-plex-sans:400,600);
+	</style>
+	<title>Frank Herbert - Dune</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<a href="/" class="logo">Frank Herbert</a>
+			<div class="nav-links">
+				<a href="/">Home</a>
+				<a href="/pages/bio.html">Bio</a>
+				<a href="/pages/books.html">Books</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<header class="hero">
+			<div class="hero-content">
+				<h1>ORDER</h1>
+				<h2>Donation for Dune, Reading Together</h2>
+				<p class="hero-description">Dear subscriber, you seeing this page because you wish to support this
+					project</p>
+
+				<p class="hero-description">This is so generous from you, thank you.</p>
+
+				<p class="hero-description">If you have any questions, feel free to reach out.</p>
+				<p>
+					<hr width="40%" style="margin: 15px 0;">
+				</p>
+				<p class="hero-description">Best regards,</p>
+				<p class="hero-description">Frank Herbert</p>
+		</header>
+
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<img src="../assets/images/dune-small.jpg" height="220" alt="Frank Herbert Logo"
+						class="footer-logo">
+				</div>
+				<div class="footer-section">
+					<h3>Pages</h3>
+					<ul class="footer-links">
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="/pages/bio.html">Bio</a></li>
+						<li><a href="/pages/books.html">Books</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h3>Social</h3>
+					<ul class="social-links">
+						<li>
+							<a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+								<img src="/assets/images/facebook-icon.svg" alt="Facebook" width="24" height="24">
+								Facebook
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+								<img src="/assets/images/x-icon.svg" alt="X" width="24" height="24">
+								X
+							</a>
+						</li>
+						<li>
+							<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+								<img src="/assets/images/instagram-icon.svg" alt="Instagram" width="24" height="24">
+								Instagram
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 Frank Herbert. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Modal Window -->
+	<div id="authModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<div class="auth-tabs">
+				<button class="tab-button active" onclick="switchTab('login')">Login</button>
+				<button class="tab-button" onclick="switchTab('register')">Register</button>
+			</div>
+
+			<div id="loginForm" class="auth-form">
+				<h2>Welcome Back</h2>
+				<p class="form-subtitle">Sign in to access your account</p>
+
+				<div class="social-login">
+					<button class="social-btn google">
+						<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google">
+						Continue with Google
+					</button>
+					<button class="social-btn facebook">
+						<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/facebook.svg" alt="Facebook">
+						Continue with Facebook
+					</button>
+				</div>
+
+				<div class="divider">
+					<span>or</span>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

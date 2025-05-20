@@ -1,11 +1,14 @@
-#_form_3_ {
+#_form_3_,
+#_form_5_
+{
 	font-size: 14px;
 	line-height: 1.6;
 	font-family: arial, helvetica, sans-serif;
 	margin: 0
 }
 
-#_form_3_ * {
+#_form_3_ *,
+#_form_5_ * {
 	outline: 0
 }
 
@@ -36,6 +39,8 @@
 }
 
 #_form_3_ input[type="text"],
+#_form_5_ input[type="text"],
+#_form_5_ input[type="email"],
 #_form_3_ input[type="tel"],
 #_form_3_ input[type="date"],
 #_form_3_ textarea {
@@ -54,7 +59,8 @@
 	resize: none
 }
 
-#_form_3_ ._submit {
+#_form_3_ ._submit, 
+#_form_5_ ._submit{
 	-webkit-appearance: none;
 	cursor: pointer;
 	font-family: arial, sans-serif;
@@ -69,16 +75,19 @@
 	padding: 10px !important
 }
 
-#_form_3_ ._submit:disabled {
+#_form_3_ ._submit:disabled,
+#_form_5_ ._submit:disabled {
 	cursor: not-allowed;
 	opacity: 0.4
 }
 
-#_form_3_ ._submit.processing {
+#_form_3_ ._submit.processing
+#_form_5_ ._submit.processing {
 	position: relative
 }
 
-#_form_3_ ._submit.processing::before {
+#_form_3_ ._submit.processing::before
+#_form_5_ ._submit.processing::before {
 	content: "";
 	width: 1em;
 	height: 1em;
@@ -94,7 +103,8 @@
 	animation: 1200ms ease 0s infinite normal none running _spin
 }
 
-#_form_3_ ._submit.processing::after {
+#_form_3_ ._submit.processing::after
+#_form_5_ ._submit.processing::after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -120,7 +130,8 @@
 	}
 }
 
-#_form_3_ ._close-icon {
+#_form_3_ ._close-icon,
+#_form_5_ ._close-icon {
 	cursor: pointer;
 	background-image: url("https://d226aj4ao1t61q.cloudfront.net/esfkyjh1u_forms-close-dark.png");
 	background-repeat: no-repeat;
@@ -181,7 +192,9 @@
 	border: 0
 }
 
-#_form_3_ ._form-label,
+#_form_3_ ._form-label, 
+#_form_5_ ._form-label,
+#_form_5_ ._form_element ._form-label,
 #_form_3_ ._form_element ._form-label {
 	font-weight: bold;
 	margin-bottom: 5px;
@@ -196,24 +209,29 @@
 	background-image: url("https://d226aj4ao1t61q.cloudfront.net/jftq2c8s_aclogo_dk.png")
 }
 
-#_form_3_ ._form_element {
+#_form_3_ ._form_element,
+#_form_5_ ._form_element 
+{
 	position: relative;
 	margin-bottom: 10px;
 	font-size: 0;
 	max-width: 100%
 }
 
-#_form_3_ ._form_element * {
+#_form_3_ ._form_element *,
+#_form_5_ ._form_element * {
 	font-size: 14px
 }
 
-#_form_3_ ._form_element._clear {
+#_form_3_ ._form_element._clear,
+#_form_5_ ._form_element._clear {
 	clear: both;
 	width: 100%;
 	float: none
 }
 
-#_form_3_ ._form_element._clear:after {
+#_form_3_ ._form_element._clear:after,
+#_form_5_ ._form_element._clear:after {
 	clear: left
 }
 
@@ -229,15 +247,18 @@
 	font-family: inherit
 }
 
-#_form_3_ ._field-wrapper {
+#_form_3_ ._field-wrapper,
+#_form_5_ ._field-wrapper {
 	position: relative
 }
 
-#_form_3_ ._inline-style {
+#_form_3_ ._inline-style,
+#_form_5_ ._inline-style {
 	float: left
 }
 
-#_form_3_ ._inline-style input[type="text"] {
+#_form_3_ ._inline-style input[type="text"],
+#_form_5_ ._inline-style input[type="text"] {
 	width: 150px
 }
 
